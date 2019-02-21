@@ -1,4 +1,5 @@
 @import "variables.scss";
+@import "menu.scss";
 
 * {
   box-sizing: border-box;
@@ -60,7 +61,7 @@ main {
 
       &:hover {
         color: $secondary-color;
-        @include ease-out();
+        @include easeOut;
       }
     }
   }
